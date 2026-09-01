@@ -2184,7 +2184,7 @@ function planoRenderFloor(floorId){
 
   var img = document.getElementById('planoImg');
   if(floorId==='PB'){
-    if(!PISO_PLANOS.PB.img) PISO_PLANOS.PB.img = img.src; // capture original once
+    if(!PISO_PLANOS.PB.img) PISO_PLANOS.PB.img = img.src;
   } else if(plano.img){
     img.src = plano.img;
   }
